@@ -1,0 +1,69 @@
+:root {
+    /*mudar a paleta de cores*/
+    --cor-1: #1C2838;
+    --cor-2: #DD2A01;
+    --cor-3: #901300;
+    --cor-4: #CFCFCF;
+    --cor-5: #E8E8E8;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ajustar o alinhamento*/
+.cabecalho-barra{
+    padding: 0.5rem;
+    display: flex;
+    background-color: var(--cor-5);
+    align-content: space-between;
+    
+}
+
+.cabecalho-botoes{
+    list-style-type: none;
+    padding-left: 4rem;
+    align-items: center;
+    font-size: 0.75rem;
+}
+
+.btn{
+    align-items: center;
+    padding: 1rem 1rem;
+}
+
+.cabecalho-botoes-link{
+    display: flex;
+    align-items: end;
+    padding: 0 2rem ;
+    text-decoration: none;
+    color: var(--cor-1);
+}
+
+.cabecalho-titulo {
+    padding: 1rem;
+    font-size: 1.25rem;
+    color: var(--cor-1);
+}
+
+.cabecalho-apresentacao {
+    background-image: url('../assents/BannerRed.png');
+    background-repeat: no-repeat;
+    height: 125px;
+}
+
+.banner-txt{
+    padding: 0.5rem 1rem;
+}
+
+.banner-txt-titulo {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    color: var(--cor-1);
+}
+
+.banner-txt-sub{
+    font-size: 0.75rem;
+    color: var(--cor-1);
+}
