@@ -37,3 +37,33 @@
     color: var(--cor-2);
     font-size: 1.25rem;
 }
+
+/*@media (max-width: 768px)] 768 ~ 991px (md) [@media (max-width: 992px)]*/
+
+@media (min-width: 768px) {
+
+    .cabecalho-barra{
+        display: flex;
+        flex-direction: row;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .cabecalho-titulo{
+        font-size: 2rem;
+    }
+
+    .cabecalho-botoes{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 1rem 10rem;
+    }
+
+    .cabecalho-botoes-link{
+    }
+
+    .cabecalho-botoes-link:hover{
+        background: var(--cor-1);
+        color: var(--cor-3);
+    }
+}
+
