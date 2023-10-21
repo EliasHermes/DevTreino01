@@ -1,69 +1,39 @@
 :root {
-    /*mudar a paleta de cores*/
-    --cor-1: #1C2838;
-    --cor-2: #DD2A01;
-    --cor-3: #901300;
-    --cor-4: #CFCFCF;
-    --cor-5: #E8E8E8;
+    --cor-1: #191717;
+    --cor-2: #7D7C7C;
+    --cor-3: #CCC8AA;
+    --cor-4: #F1EFEF;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-/* ajustar o alinhamento*/
 .cabecalho-barra{
-    padding: 0.5rem;
     display: flex;
-    background-color: var(--cor-5);
-    align-content: space-between;
-    
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 0rem;
+    background-color: var(--cor-4);
+}
+
+.cabecalho-titulo{
+    color: var(--cor-1);
+    font-size: 1.5rem;
 }
 
 .cabecalho-botoes{
     list-style-type: none;
-    padding-left: 4rem;
-    align-items: center;
-    font-size: 0.75rem;
-}
-
-.btn{
-    align-items: center;
-    padding: 1rem 1rem;
+    padding: 1rem 0rem;
 }
 
 .cabecalho-botoes-link{
-    display: flex;
-    align-items: end;
-    padding: 0 2rem ;
+    line-height: 45px;
+    border: solid 2px var(--cor-1);
+    padding: 3px 10px;
+    border-radius: 10px;
     text-decoration: none;
-    color: var(--cor-1);
-}
-
-.cabecalho-titulo {
-    padding: 1rem;
+    color: var(--cor-2);
     font-size: 1.25rem;
-    color: var(--cor-1);
-}
-
-.cabecalho-apresentacao {
-    background-image: url('../assents/BannerRed.png');
-    background-repeat: no-repeat;
-    height: 125px;
-}
-
-.banner-txt{
-    padding: 0.5rem 1rem;
-}
-
-.banner-txt-titulo {
-    padding: 0.5rem 0;
-    font-size: 1rem;
-    color: var(--cor-1);
-}
-
-.banner-txt-sub{
-    font-size: 0.75rem;
-    color: var(--cor-1);
 }
